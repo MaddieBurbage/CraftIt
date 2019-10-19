@@ -1,0 +1,181 @@
+html
+{
+	margin-bottom: 20%;
+}
+
+#sider
+{
+	border: 5px solid #801515;
+	border-radius: 5px;
+	position: fixed;
+	padding: 20px;
+	padding-right: 100px;
+	top: 30%;
+	right: 20px;
+	height: 50%;
+	background-color: white;
+	margin: 10px;
+}
+
+.items
+{
+	height:20%;
+	width:100%;
+	overflow-y: auto;
+}
+
+.fa
+{
+	color:grey;
+}
+
+.fa:hover
+{
+	color: #550000;
+}
+
+.fa-star
+{
+	color:#801515;
+}
+
+.fa-heart
+{
+	color:#801515;
+}
+
+#intropic
+{
+	width: 50%;
+	float: left;
+}
+
+#title
+{
+	position:absolute; /* https://css-tricks.com/text-blocks-over-image/ */
+	bottom: 0px;
+	left: 20px;
+	background: rgba(85, 0, 0, 0.5);
+	padding:10px;
+	padding-left:25px;
+	color: white;
+	border-radius: 15px 10px 15px 30px;
+
+}
+
+#descr
+{
+	float:left;
+	padding: 10px;
+}
+
+#heading
+{
+	overflow:auto;
+	position:relative;
+	padding:10px;
+}
+
+#snapshot
+{
+	float:left;
+	margin:10px;
+}
+
+#steps
+{
+	padding: 20px;
+}
+
+#steps img
+{
+	width: 30%;
+}
+
+.caption
+{
+	border: 2px solid #801515;
+	border-radius: 5px;
+	width: 28%;
+	padding: 5px;
+}
+
+#adding
+{
+	border: 5px solid #801515;
+	border-radius: 5px;
+	width: 30%;
+	padding: 10px;
+}
+
+#comments p
+{
+	background-color: rgba(85, 0, 0, 0.5);
+	color: white;
+	border-radius: 5px;
+	padding:10px;
+}
+
+#comments
+{
+	width:40%;
+	height:100%;
+	overflow-y: auto;
+}
+
+#results
+{
+	width:40%;
+	height:90%;
+	overflow-x: auto;
+}
+
+.small #results img
+{
+	height: 30%;
+	width: auto;
+}
+
+#results img
+{
+	width: 50%;
+}
+
+#tipbox
+{
+	position: fixed;
+	background-color: white;
+	border: 2px solid #801515;
+	bottom:0px;
+	width: 75%;
+}
+
+#tipbox h3
+{
+	margin: 5px;
+}
+
+.grid
+{
+	float: left;
+    padding-left:20px;
+}
+
+.big
+{
+	height: 40%;
+}
+
+.small
+{
+	height: 20%;
+}
+
+.fa-chevron-down
+{
+	left:0px;
+	color: white;
+	background: rgba(85, 0, 0, 0.5);
+	width: 50%;
+	padding-left: 50%;
+}
